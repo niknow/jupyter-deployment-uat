@@ -1,2 +1,1 @@
-web: voila app --VoilaConfiguration.file_whitelist="['.*']"
-web: voila --port=$PORT --no-browser start.ipynb
+web: voila --port=$PORT --no-browser --enable_nbextensions=True
